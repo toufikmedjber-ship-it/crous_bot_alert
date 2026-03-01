@@ -4,6 +4,6 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "python v.py"
+    "startCommand": "python main.py"
   }
 }
