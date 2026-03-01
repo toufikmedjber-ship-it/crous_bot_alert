@@ -1,0 +1,9 @@
+services:
+  - type: worker
+    name: bot-crous
+    runtime: python
+    repo: https://github.com/toufikmedjber-ship-it/crous_bot_alert.git
+    branch: main
+    buildCommand: pip install -r requirements.txt
+    startCommand: python v.py
+
